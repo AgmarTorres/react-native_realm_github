@@ -71,6 +71,7 @@ export default function Main() {
       <Form>
         <Input
           value={input}
+          error={error}
           onChangeText= {text=> setInput(text)}
           autoCapitalize="none"
           autCorrect={false}
